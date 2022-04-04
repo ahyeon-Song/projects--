@@ -73,8 +73,6 @@ body {
     height: auto;
 }
 
-.intro-bg {}
-
 .right {
     width: 32vw;
     margin-left: 50vw;
@@ -138,6 +136,12 @@ body {
     display: flex;
 }
 
+.overview-right {
+    margin-left: 5vw;
+    margin-top: -10vw;
+    filter: brightness(50%);
+}
+
 .overview-left {
     width: 30vw;
     height: auto;
@@ -172,7 +176,7 @@ uservoice-b {
     width: 100%;
     height: auto;
     margin: auto;
-    margin-top: 15vw;
+    margin-top: 5vw;
     margin-left: 8vw;
 }
 
