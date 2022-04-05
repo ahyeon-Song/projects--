@@ -374,3 +374,73 @@ persona-b {
     margin: auto;
     margin-top: 5vw;
 }
+
+.design-wrap {
+    margin-top: 10vw;
+    margin-left: 8vw;
+}
+
+.design-detail {
+    width: 80%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design-detail-text {
+    margin-left: 4vw;
+}
+
+.design-h, .design-b, .design-h-right, .design-b-right {
+    color: white;
+}
+
+.design-h {
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+.design-b {
+    width: 25vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 2vw;
+    margin-top: 2vw;
+}
+
+.design-h-right {
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+.design-b-right {
+    width: 25vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 2vw;
+    margin-top: 2vw;
+}
+
+.design-img {
+    image-rendering: optimizeQuality;
+    position: relative;
+}
+
+.line2 {
+    width: 15vw;
+    height: 0.01vw;
+    background-color: white;
+    margin-left: 33vw;
+    position: absolute;
+    z-index: 3;
+}
+
+.line2-right {
+    width: 15vw;
+    height: 0.01vw;
+    background-color: white;
+    margin-left: 25vw;
+    position: absolute;
+    z-index: 3;
+}
