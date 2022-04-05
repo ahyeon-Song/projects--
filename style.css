@@ -152,7 +152,7 @@ body {
 }
 
 .overview-left {
-    width: 30vw;
+    width: 32vw;
     height: auto;
     margin-left: 8vw;
 }
@@ -180,7 +180,10 @@ persona-h {
 }
 
 overview-b,
-uservoice-b {
+uservoice-b,
+wireframe-b {
+    width: 40%;
+    line-height: 2vw;
     font-size: 1.2vw;
     font-weight: 500;
     color: white;
@@ -255,12 +258,24 @@ uservoice-b {
 }
 
 .solution-wrap {
-    margin-left: 39vw;
+    margin-left: 15vw;
 }
 
-.ps-img {
-    margin-left: 8vw;
-    margin-top: 3vw;
+.arrow-wrap {
+    margin-left: 15vw;
+    margin-top: 9vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 5vw;
+    color: white;
+}
+
+.problem-b, .solution-b{
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 5vw;
+    color: white;
 }
 
 /* persona */
@@ -344,4 +359,18 @@ persona-b {
     text-align: center;
     padding-bottom: 15vw;
     padding-top: 3vw;
+}
+
+.wireframe-text {
+    margin-top: 10vw;
+    margin-left: 8vw;
+}
+
+.nav-img {
+    margin-top: 3.5vw;
+}
+
+.wirframe-img {
+    margin: auto;
+    margin-top: 5vw;
 }
