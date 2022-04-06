@@ -16,6 +16,18 @@
     body .ps-img >img {
         width: 86%;
     }
+
+    body .line2-right, .line2 {
+        display: none;
+    }
+
+    body .design-detail-text {
+        padding-left: 10vw;
+    }
+
+    body .design-detail-text-right {
+        padding-right: 15vw;
+    }
 }
 
 /* ----------------------------------------------------------------- */
@@ -302,6 +314,10 @@ wireframe-b {
     zoom: 0.8;
 }
 
+.persona-2 {
+    margin-left: -7vw;
+}
+
 
 .persona-text-wrap {
     width: 27vw;
@@ -382,13 +398,13 @@ persona-b {
 
 .design-detail {
     width: 80%;
-    margin-top: 5vw;
+    margin-top: 4vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.design-detail-text {
+.design-detail-text, .design-detail-text-right {
     margin-left: 4vw;
 }
 
@@ -440,7 +456,16 @@ persona-b {
     width: 15vw;
     height: 0.01vw;
     background-color: white;
-    margin-left: 25vw;
+    margin-left: 26vw;
     position: absolute;
     z-index: 3;
+}
+
+ .design-all {
+    width: 100%;
+    padding: 6vw 0vw;
+    height: auto;
+    background-color: #242426;
+    margin: auto;
+    text-align: center;
 }
